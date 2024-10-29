@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,6 +65,8 @@ namespace BattleNetLaucher.ModelView
         } 
         public RelayCommand PreviousCommand => new RelayCommand(PreviousGame);
         public RelayCommand NextCommand => new RelayCommand(NextGame);
+
+        public RelayCommand PlayCommand => new RelayCommand(PlaySelectedGame);
         #endregion Games
 
 
@@ -175,7 +178,6 @@ namespace BattleNetLaucher.ModelView
             if (SelectedGame == null)
             {
                 SelectedGame = AllSlideGames[0];
-                MessageBox.Show("Index = 0");
                 return;
             }
 
@@ -183,11 +185,9 @@ namespace BattleNetLaucher.ModelView
             if(_index==0)
             {
                 SelectedGame = AllSlideGames[AllSlideGames.Count-1];
-                MessageBox.Show("Index ="+ (AllSlideGames.Count-1).ToString());
                 return;
             }
             SelectedGame = AllSlideGames[_index-1];
-            MessageBox.Show("Index =" + (_index - 1).ToString());
         }
 
         void NextGame(object _obj)
@@ -196,7 +196,6 @@ namespace BattleNetLaucher.ModelView
             if (SelectedGame == null)
             {
                 SelectedGame = AllSlideGames[0];
-                MessageBox.Show("Index = 0");
                 return;
             }
 
@@ -204,11 +203,9 @@ namespace BattleNetLaucher.ModelView
             if (_index == AllSlideGames.Count - 1)
             {
                 SelectedGame = AllSlideGames[0];
-                MessageBox.Show("Index = 0");
                 return;
             }
             SelectedGame = AllSlideGames[_index + 1];
-            MessageBox.Show("Index =" + (_index + 1).ToString());
 
         }
         int GetIndexByGame()
@@ -226,6 +223,14 @@ namespace BattleNetLaucher.ModelView
                     return _i;
             }
             return -1;
+        }
+
+        void PlaySelectedGame(object _obj)
+        {
+            if (SelectedGame == null && string.IsNullOrEmpty(SelectedGame.URL)) return;
+            
+            URLOption gameOption = new URLOption("Play Game", null, SelectedGame.URL);
+            OptionsCallbacks.URLCallBack(gameOption);
         }
     }
 }
