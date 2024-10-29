@@ -83,7 +83,7 @@
                 
                 <!-- Image au centre -->
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image Source="{Binding SelectedGame.ImagePath}" Width="575" Height="150" Margin="10"></Image>
+                <Image Source="{Binding SelectedGame.Image.Source}" Width="575" Height="150" Margin="10"></Image>
                 <TextBlock  Text="{Binding SelectedGame.Description}" Width="575" Height="150" Margin="10"/>
                 <Button Content="Play" Width="100" Height="30" Margin="10"/>
             </StackPanel>
