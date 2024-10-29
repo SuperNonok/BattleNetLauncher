@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\modelviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\modelviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,46 +76,46 @@
               "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\RelayCommand.cs",
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:08:15.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "OptionsCallbacks.cs",
               "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:01:29.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml.cs",
               "RelativeToolTip": "BattleNetLaucher\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIAwwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T10:05:23.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ModelViewBase.cs",
               "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\ModelViewBase.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\ModelViewBase.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\ModelViewBase.cs",
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\ModelViewBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T10:05:11.165Z",
               "EditorCaption": ""
@@ -128,7 +128,7 @@
               "RelativeDocumentMoniker": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
               "RelativeToolTip": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T10:05:05.878Z",
               "EditorCaption": ""
