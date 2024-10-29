@@ -6,7 +6,31 @@
         xmlns:local="clr-namespace:BattleNetLaucher"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Background="#1C1C1C">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal">
+            <Button Width="50" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"
+                    Click="OpenPopup" Background="Transparent" BorderThickness="0">
+                    <Image Source ="battleNet.png"></Image>
+            </Button>
+            <Button Content="ACCUEIL" Width="100" Height="30" Margin="5"/>
+            <Button Content="JEUX" Width="100" Height="30" Margin="5"/>
+            <Button Content="BOUTIQUE" Width="100" Height="30" Margin="5"/>
+        </StackPanel>
+     
+        <Popup Name="OptionsPopup" Placement="Mouse" StaysOpen="False" Grid.ColumnSpan="2">
+            <Border Background="#2D2D2D" BorderBrush="Black" BorderThickness="1" Padding="10">
+                <StackPanel>
+                    <Button Content="Parameter" Width="150" Margin="5"/>
+                </StackPanel>
+            </Border>
+        </Popup>
+        
     </Grid>
 </Window>
+

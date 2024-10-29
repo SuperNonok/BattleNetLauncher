@@ -23,5 +23,10 @@ namespace BattleNetLaucher
             MainWindowModelView _mwmv = new MainWindowModelView();
             DataContext = _mwmv;
         }
+
+        private void OpenPopup(object sender, RoutedEventArgs e)
+        {
+            OptionsPopup.IsOpen = true;
+        }
     }
 }
