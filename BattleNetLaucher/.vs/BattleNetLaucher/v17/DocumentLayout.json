@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|d:\\_nolana\\git\\battlenetlauncher\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\modelviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -50,33 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\RelayCommand.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
               "ToolTip": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\RelayCommand.cs",
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:08:15.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OptionsCallbacks.cs",
               "DocumentMoniker": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "ToolTip": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAgAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA5wEIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:01:29.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MainWindow.xaml.cs",
@@ -97,17 +97,18 @@
               "RelativeToolTip": "BattleNetLaucher\\MVVM\\ModelViewBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:05:11.165Z"
+              "WhenOpened": "2024-10-29T10:05:11.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindowModelView.cs",
               "DocumentMoniker": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
               "ToolTip": "D:\\_NolanA\\GIT\\BattleNetLauncher\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
               "RelativeToolTip": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwD8AAABbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T10:05:05.878Z",
               "EditorCaption": ""

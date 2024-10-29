@@ -27,10 +27,10 @@ namespace BattleNetLaucher.MVVM
         public static void WindowOpeningCallBack(object _obj)
         {
             OpenWindowOption _option = (OpenWindowOption)_obj;
+            MessageBox.Show("Open Window from " + _option.Label);
             if(_option == null || _option.CustomWindow == null)
                 return;
 
-            MessageBox.Show("Open Window from " + _option.Label);
             Window _window = _option.CustomWindow;
 
 
@@ -62,6 +62,11 @@ namespace BattleNetLaucher.MVVM
         public static void ShopButtonCallback(object _obj)
         {
             MessageBox.Show("Shop");
+        }
+
+        public static void ShowContactInfosCallback(object _obj)
+        {
+            MessageBox.Show("Show Contact Infos");
         }
     }
 }
