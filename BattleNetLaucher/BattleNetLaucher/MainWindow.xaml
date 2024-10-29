@@ -21,7 +21,7 @@
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
             <Button Width="50" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"
                     Click="OpenPopup" Background="Transparent" BorderThickness="0">
-                <Image Source="battleNet.png"/>
+                <Image x:Name="Logo" Source="battleNet.png"/>
             </Button>
             <Button Content="ACCUEIL" Width="50" Height="30" Margin="5" Foreground="White" Background="Transparent" BorderThickness="0" FontWeight="Bold" Command="{Binding HomeCommand}"/>
             <Button Content="JEUX" Width="50" Height="30" Margin="5,0,0,0" Foreground="White" Background="Transparent" BorderThickness="0" FontWeight="Bold"  Command="{Binding GamesCommand}"/>
@@ -30,7 +30,7 @@
 
             <!--Profile utilisateur-->
             <Button Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="360,0,0,0" Background="Transparent" BorderThickness="0" Command="{Binding ProfilePictureCommand}">
-                <Image Source="/PP.png" Width="50" Height="50"/>
+                <Image x:Name="Profile_Picture" Source="/PP.png" Width="50" Height="50"/>
             </Button>
             <Button Content="Pseudo" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,0,0,0" Foreground="LightBlue" Background="Transparent" 
                     BorderThickness="0" FontSize="14">
@@ -53,7 +53,7 @@
             <!-- Liste des amis -->
             <StackPanel Grid.Row="1" Margin="0,10,0,0">
                 <TextBlock Text="Amis - 0/5" FontSize="14" Foreground="LightGray" />
-                <ListView Name="FriendsListView" Margin="0,5,0,0" MaxHeight="200">
+                <ListView Name="FriendsListView" Margin="0,5,0,0" Height="250">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <StackPanel>
@@ -66,7 +66,7 @@
             </StackPanel>
 
             <!-- Discussion et groupes -->
-            <Button Grid.Row="2" Content="Discussion et groupes" HorizontalAlignment="Right" Padding="5,2" Margin="0,10,0,0" Background="#313339" Foreground="White" FontWeight="Bold" />
+            <Button Grid.Row="2" Content="Discussion et groupes" HorizontalAlignment="Right" Padding="5,2" Margin="0,250,0,0" Background="#313339" Foreground="White" FontWeight="Bold" />
         </Grid>
 
             <!-- GAMES -->
@@ -83,8 +83,8 @@
                 
                 <!-- Image au centre -->
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image Source="{Binding SelectedGame.ImagePath}" Width="575" Height="150" Margin="10"></Image>
-                <TextBlock  Text="{Binding SelectedGame.Description}" Width="575" Height="150" Margin="10"/>
+                <Image Source="{Binding SelectedGame.ImagePath, UpdateSourceTrigger=PropertyChanged}" Width="575" Height="150" Margin="10"></Image>
+                <TextBlock  Text="{Binding SelectedGame.Description, UpdateSourceTrigger=PropertyChanged}" Width="575" Height="150" Margin="10"/>
                 <Button Content="Play" Width="100" Height="30" Margin="10"/>
             </StackPanel>
             

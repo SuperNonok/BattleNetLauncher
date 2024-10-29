@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\modelviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\modelviewbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\modelview\\mainwindowmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\optionscallbacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|c:\\users\\kylia\\documents\\github\\battlenetlauncher\\battlenetlaucher\\battlenetlaucher\\mvvm\\allurls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72FA3AF3-ED4B-4F63-91B7-E9FB8CC1ED25}|BattleNetLaucher\\BattleNetLaucher.csproj|solutionrelative:battlenetlaucher\\mvvm\\allurls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,22 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindowModelView.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "RelativeToolTip": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAuwLcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:05:05.878Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -80,27 +54,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AllURLs.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\AllURLs.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\AllURLs.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\AllURLs.cs",
-              "RelativeToolTip": "BattleNetLaucher\\MVVM\\AllURLs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "DocumentIndex": 3,
+              "Title": "OptionsCallbacks.cs",
+              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
+              "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
+              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
+              "RelativeToolTip": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:33:26.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\Models\\Game.cs",
-              "RelativeToolTip": "BattleNetLaucher\\Models\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:28:01.495Z"
+              "WhenOpened": "2024-10-29T15:31:45.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,59 +74,46 @@
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml",
               "RelativeToolTip": "BattleNetLaucher\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-29T10:04:39.013Z",
+              "WhenOpened": "2024-10-29T15:26:44.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "RelativeToolTip": "BattleNetLaucher\\MVVM\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T11:08:15.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OptionsCallbacks.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "RelativeToolTip": "BattleNetLaucher\\MVVM\\OptionsCallbacks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T11:01:29.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "BattleNetLaucher\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MainWindow.xaml.cs",
               "RelativeToolTip": "BattleNetLaucher\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:05:23.656Z",
+              "WhenOpened": "2024-10-29T15:26:43.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "BattleNetLaucher\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\Models\\Game.cs",
+              "RelativeToolTip": "BattleNetLaucher\\Models\\Game.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:13:41.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModelViewBase.cs",
-              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\ModelViewBase.cs",
-              "RelativeDocumentMoniker": "BattleNetLaucher\\MVVM\\ModelViewBase.cs",
-              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\MVVM\\ModelViewBase.cs",
-              "RelativeToolTip": "BattleNetLaucher\\MVVM\\ModelViewBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MainWindowModelView.cs",
+              "DocumentMoniker": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
+              "RelativeDocumentMoniker": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
+              "ToolTip": "C:\\Users\\Kylia\\Documents\\GitHub\\BattleNetLauncher\\BattleNetLaucher\\BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
+              "RelativeToolTip": "BattleNetLaucher\\ModelView\\MainWindowModelView.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:05:11.165Z",
+              "WhenOpened": "2024-10-29T15:04:22.484Z",
               "EditorCaption": ""
             }
           ]
