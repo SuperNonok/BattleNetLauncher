@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
 using BattleNetLaucher.Models;
 using BattleNetLaucher.MVVM;
 
@@ -12,6 +14,7 @@ namespace BattleNetLaucher.ModelView
     public class MainWindowModelView : ModelViewBase
     {
         public List<Option> AllOptions { get; set; } = new List<Option>();
+        public List<Game> AllSlideGames { get; set; } = new List<Game>();
 
         // Base Bar Commands
         #region Base Bar
@@ -36,14 +39,21 @@ namespace BattleNetLaucher.ModelView
         public RelayCommand ProfilePictureCommand => new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(ProfilePictureOption));
         public RelayCommand AddContactCommand => new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(AddContactOption));
         public RelayCommand ShowContactInfosCommand => new RelayCommand((o) => OptionsCallbacks.ShowContactInfosCallback(ShowContactInfosOption));
-            #endregion Commands
+        #endregion Commands
 
         #endregion Social
 
+        #region Games
+        public Game SelectedGame { get; set; } = null;
+        public RelayCommand PreviousCommand => new RelayCommand(PreviousGame);
+        public RelayCommand NextCommand => new RelayCommand(NextGame);
+        #endregion Games
+
+
         public MainWindowModelView()
         {
-            InitPermanentCommands();
             InitOptions();
+            InitGames();
         }
 
         void InitOptions()
@@ -109,9 +119,92 @@ namespace BattleNetLaucher.ModelView
             AllOptions.Add(_mobileApp);
         }
 
-        void InitPermanentCommands()
+        void InitGames()
         {
-           // HomeCommand = 
+            Game _callOf = new Game("CALL OF DUTY: BLACK OPS 6", null, AllURLs.GET_CALLOF_URL,
+                "Découvrez un jeu d'action et d'espionnage au scénario saisissant,\n" +
+                "une experience Multijoueur incomparable avec 16 nouvelles\n" +
+                "cartes et le grand retour de Zombies par manches.");
+
+            Game _overwatch = new Game("OVERWATCH 2",null,AllURLs.GET_OVERWATCH_URL,
+                "La nouvelle collaboration Overwatch 2 propose des modèles\n" +
+                "exclusifs inspirés des personnages emblématiques de My Hero\n" +
+                "Academia");
+
+            Game _diablo = new Game("DIABLO IV",null,AllURLs.GET_DIABLOIV_URL,
+                "Repoussez les forces du mal avec l'Ultimate Edition et débloquez\n" +
+                "instantanément 2 familiers, la monture jaguar, 3 000 pièces de\n" +
+                "platine et plus encore.");
+
+            Game _hearthstone = new Game("HEARTHSTONE", null, AllURLs.GET_HEARTHSTONE_URL,
+                "145 cartes inédites, le nouveau système de jeu des vaisseaux et le\n" +
+                "nouveau type de serviteur, les Draeneï");
+
+            AllSlideGames.Add(_callOf);
+            AllSlideGames.Add(_overwatch);
+            AllSlideGames.Add(_diablo);
+            AllSlideGames.Add(_hearthstone);
+            SelectedGame = AllSlideGames[0];
+        }
+
+        void PreviousGame(object _obj)
+        {
+            if (AllSlideGames.Count <= 0) return;
+            if (SelectedGame == null)
+            {
+                SelectedGame = AllSlideGames[0];
+                MessageBox.Show("Index = 0");
+                return;
+            }
+
+            int _index = GetIndexByGame();
+            if(_index==0)
+            {
+                SelectedGame = AllSlideGames[AllSlideGames.Count];
+                MessageBox.Show("Index ="+ AllSlideGames.Count.ToString());
+                return;
+            }
+            SelectedGame = AllSlideGames[_index-1];
+            MessageBox.Show("Index =" + (_index - 1).ToString());
+        }
+
+        void NextGame(object _obj)
+        {
+            if (AllSlideGames.Count <= 0) return;
+            if (SelectedGame == null)
+            {
+                SelectedGame = AllSlideGames[0];
+                MessageBox.Show("Index = 0");
+                return;
+            }
+
+            int _index = GetIndexByGame();
+            if (_index == AllSlideGames.Count)
+            {
+                SelectedGame = AllSlideGames[0];
+                MessageBox.Show("Index = 0");
+                return;
+            }
+            SelectedGame = AllSlideGames[_index + 1];
+            MessageBox.Show("Index =" + (_index + 1).ToString());
+
+        }
+
+        int GetIndexByGame()
+        {
+            if (AllSlideGames.Count <= 0) return -1;
+            if (SelectedGame == null)
+            {
+                SelectedGame = AllSlideGames[0];
+                return 0;
+            }
+            int _size = AllSlideGames.Count;
+            for (int _i = 0; _i < _size; _i++)
+            {
+                if (AllSlideGames[_i]==SelectedGame)
+                    return _i;
+            }
+            return -1;
         }
     }
 }

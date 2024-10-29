@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <None Remove="battleNet.png" />
-    <None Remove="PP.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,9 +18,6 @@
 
   <ItemGroup>
     <Resource Include="battleNet.png" />
-    <Resource Include="PP.png">
-      <CopyToOutputDirectory></CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
 
 </Project>
