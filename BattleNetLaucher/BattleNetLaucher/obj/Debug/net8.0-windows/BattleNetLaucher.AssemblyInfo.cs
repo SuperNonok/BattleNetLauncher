@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BattleNetLaucher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3949a71190be0259adb44dd68ee9fe9c9fb93b95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55b00e3e08ef43e949ad14f0ccf83d9295b350a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BattleNetLaucher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BattleNetLaucher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
