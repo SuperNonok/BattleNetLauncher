@@ -19,6 +19,7 @@ namespace BattleNetLaucher
         public MainWindow()
         {
             InitializeComponent();
+            // Fonctionne
         }
     }
 }
