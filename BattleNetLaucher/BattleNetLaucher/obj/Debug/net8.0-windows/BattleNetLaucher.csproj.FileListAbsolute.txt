@@ -18,3 +18,4 @@ D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLau
 D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\BattleNetLaucher.pdb
 D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\BattleNetLaucher.genruntimeconfig.cache
 D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\ref\BattleNetLaucher.dll
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\BattleNetLaucher.sourcelink.json

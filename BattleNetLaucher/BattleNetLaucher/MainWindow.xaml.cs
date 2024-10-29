@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using BattleNetLaucher.ModelView;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,7 +20,8 @@ namespace BattleNetLaucher
         public MainWindow()
         {
             InitializeComponent();
-            // Fonctionne
+            MainWindowModelView _mwmv = new MainWindowModelView();
+            DataContext = _mwmv;
         }
     }
 }
