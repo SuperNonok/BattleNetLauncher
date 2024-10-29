@@ -12,6 +12,7 @@ namespace BattleNetLaucher.ModelView
     public class MainWindowModelView : ModelViewBase
     {
         List<Option> allOptions = new List<Option>();
+        public List<Option> AllOptions => allOptions;
 
         public MainWindowModelView()
         {
