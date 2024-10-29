@@ -40,3 +40,15 @@ C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLauc
 C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\BattleNetLaucher.sourcelink.json
 C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\BattleNetLaucher.genruntimeconfig.cache
 C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\ref\BattleNetLaucher.dll
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\ParametersWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\UpdatesWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\ParametersWindow.baml
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\UpdatesWindow.baml
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\BugReportWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\CommentaryWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\BugReportWindow.baml
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\CommentaryWindow.baml
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\AddContactWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\ProfilePicturesWindow.g.cs
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\AddContactWindow.baml
+D:\_NolanA\GIT\BattleNetLauncher\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\Views\Windows\ProfilePicturesWindow.baml
