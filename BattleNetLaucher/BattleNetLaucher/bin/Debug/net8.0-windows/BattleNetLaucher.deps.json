@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BattleNetLaucher/1.0.0": {
+        "runtime": {
+          "BattleNetLaucher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BattleNetLaucher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
