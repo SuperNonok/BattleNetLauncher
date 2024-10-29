@@ -10,6 +10,10 @@
 
   <ItemGroup>
     <None Remove="battleNet.png" />
+    <None Remove="Ressources\Games\CallOfImage.png" />
+    <None Remove="Ressources\Games\DiabloImage.png" />
+    <None Remove="Ressources\Games\HeathstoneImage.png" />
+    <None Remove="Ressources\Games\OverwatchImage.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +22,10 @@
 
   <ItemGroup>
     <Resource Include="battleNet.png" />
+    <Resource Include="Ressources\Games\CallOfImage.png" />
+    <Resource Include="Ressources\Games\DiabloImage.png" />
+    <Resource Include="Ressources\Games\HeathstoneImage.png" />
+    <Resource Include="Ressources\Games\OverwatchImage.png" />
   </ItemGroup>
 
 </Project>
