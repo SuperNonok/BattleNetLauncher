@@ -14,6 +14,9 @@ namespace BattleNetLaucher.ModelView
 {
     public class MainWindowModelView : ModelViewBase
     {
+        MainWindow mainWindow = null;
+        Game selectedGame = null;
+
         public List<Option> AllOptions { get; set; } = new List<Option>();
         public List<Game> AllSlideGames { get; set; } = new List<Game>();
 
@@ -45,14 +48,28 @@ namespace BattleNetLaucher.ModelView
         #endregion Social
 
         #region Games
-        public Game SelectedGame { get; set; } = null;
+        public Game SelectedGame 
+        {
+            get
+            {
+                return selectedGame;
+            }
+
+            set
+            {
+                selectedGame = value;
+                OnPropertyChanged();
+            }
+                 
+        } 
         public RelayCommand PreviousCommand => new RelayCommand(PreviousGame);
         public RelayCommand NextCommand => new RelayCommand(NextGame);
         #endregion Games
 
 
-        public MainWindowModelView()
+        public MainWindowModelView(MainWindow _mainWindow)
         {
+            mainWindow = _mainWindow;
             InitOptions();
             InitGames();
         }
@@ -72,10 +89,10 @@ namespace BattleNetLaucher.ModelView
 
             // Quatrieme Categorie
             Option _disconnect = new Option("Disconnection"); // can add an Icon as Third parameter (default as null)
-            _disconnect.OptionCommand = new RelayCommand((o) => OptionsCallbacks.LeaveOrDisconnectCallBack(_disconnect));
+            _disconnect.OptionCommand = new RelayCommand((o) => OptionsCallbacks.LeaveOrDisconnectCallBack(_disconnect, mainWindow));
             AllOptions.Add(_disconnect);
             Option _leave = new Option("Leave"); // can add an Icon as Third parameter (default as null)
-            _leave.OptionCommand = new RelayCommand((o) => OptionsCallbacks.LeaveOrDisconnectCallBack(_leave));
+            _leave.OptionCommand = new RelayCommand((o) => OptionsCallbacks.LeaveOrDisconnectCallBack(_leave, mainWindow));
             AllOptions.Add(_leave);
 
         }
@@ -166,7 +183,7 @@ namespace BattleNetLaucher.ModelView
             if(_index==0)
             {
                 SelectedGame = AllSlideGames[AllSlideGames.Count-1];
-                MessageBox.Show("Index ="+ AllSlideGames.Count.ToString());
+                MessageBox.Show("Index ="+ (AllSlideGames.Count-1).ToString());
                 return;
             }
             SelectedGame = AllSlideGames[_index-1];

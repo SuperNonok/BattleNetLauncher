@@ -20,7 +20,7 @@ namespace BattleNetLaucher
         public MainWindow()
         {
             InitializeComponent();
-            MainWindowModelView _mwmv = new MainWindowModelView();
+            MainWindowModelView _mwmv = new MainWindowModelView(this);
             DataContext = _mwmv;
         }
 
