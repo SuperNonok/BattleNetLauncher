@@ -32,8 +32,8 @@ namespace BattleNetLaucher.Models
         void InitImage()
         {
             BitmapImage _bitmapImage = new BitmapImage();
-            _bitmapImage.UriSource = new Uri(ImageURI);
-            Image.Source = _bitmapImage;
+           // _bitmapImage.UriSource = new Uri(ImageURI);
+            //Image.Source = _bitmapImage;
         }
     }
 }

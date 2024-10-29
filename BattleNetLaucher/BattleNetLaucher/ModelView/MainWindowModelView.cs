@@ -8,6 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Media;
 using BattleNetLaucher.Models;
 using BattleNetLaucher.MVVM;
+using BattleNetLaucher.Views.Windows;
 
 namespace BattleNetLaucher.ModelView
 {
@@ -28,9 +29,9 @@ namespace BattleNetLaucher.ModelView
 
         #region Options
 
-            public OpenWindowOption ProfilePictureOption = new OpenWindowOption("Profile Picture");
+            public OpenWindowOption ProfilePictureOption = new OpenWindowOption("Profile Picture",null, new ProfilePicturesWindow());
 
-            public OpenWindowOption AddContactOption = new OpenWindowOption("Add Contact");
+            public OpenWindowOption AddContactOption = new OpenWindowOption("Add Contact",null,new AddContactWindow());
 
             public Option ShowContactInfosOption = new Option("Show Contact");
         #endregion Options
@@ -83,19 +84,19 @@ namespace BattleNetLaucher.ModelView
         {
             //TO DO CREATE WINDOWS TO SHOW AND REPLACE "null" BY THE WANTED WINDOW
             //Premiere Categorie
-            OpenWindowOption _parameters = new OpenWindowOption("parameters"); // can add an Icon as Fourth parameter (default as null)
+            OpenWindowOption _parameters = new OpenWindowOption("parameters",null,new ParametersWindow()); // can add an Icon as Fourth parameter (default as null)
             _parameters.OptionCommand = new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(_parameters));
             AllOptions.Add(_parameters);
 
 
-            OpenWindowOption _bNetUpdates = new OpenWindowOption("Battle.net Updates"); // can add an Icon as Fourth parameter (default as null)
+            OpenWindowOption _bNetUpdates = new OpenWindowOption("Battle.net Updates",null, new UpdatesWindow()); // can add an Icon as Fourth parameter (default as null)
             _bNetUpdates.OptionCommand = new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(_bNetUpdates));
             AllOptions.Add(_bNetUpdates);
             //Troisieme Categorie
-            OpenWindowOption _commentary = new OpenWindowOption("Send Commentary"); // can add an Icon as Third parameter (default as null)
+            OpenWindowOption _commentary = new OpenWindowOption("Send Commentary",null, new CommentaryWindow()); // can add an Icon as Third parameter (default as null)
             _commentary.OptionCommand = new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(_commentary));
             AllOptions.Add(_commentary);
-            OpenWindowOption _bugReport = new OpenWindowOption("Report a Bug"); // can add an Icon as Third parameter (default as null)
+            OpenWindowOption _bugReport = new OpenWindowOption("Report a Bug",null,new BugReportWindow()); // can add an Icon as Third parameter (default as null)
             _bugReport.OptionCommand = new RelayCommand((o) => OptionsCallbacks.WindowOpeningCallBack(_bugReport));
             AllOptions.Add(_bugReport);
         }
@@ -125,24 +126,24 @@ namespace BattleNetLaucher.ModelView
                 "Découvrez un jeu d'action et d'espionnage au scénario saisissant,\n" +
                 "une experience Multijoueur incomparable avec 16 nouvelles\n" +
                 "cartes et le grand retour de Zombies par manches.",
-                @"Ressources\Games\CallOfImage.png");
+                @"\Ressources\Games\CallOfImage.png");
 
             Game _overwatch = new Game("OVERWATCH 2",null,AllURLs.GET_OVERWATCH_URL,
                 "La nouvelle collaboration Overwatch 2 propose des modèles\n" +
                 "exclusifs inspirés des personnages emblématiques de My Hero\n" +
                 "Academia",
-                @"Ressources\Games\OverwatchImage.png");
+                @"\Ressources\Games\OverwatchImage.png");
 
             Game _diablo = new Game("DIABLO IV",null,AllURLs.GET_DIABLOIV_URL,
                 "Repoussez les forces du mal avec l'Ultimate Edition et débloquez\n" +
                 "instantanément 2 familiers, la monture jaguar, 3 000 pièces de\n" +
                 "platine et plus encore.",
-                @"Ressources\Games\DiabloImage.png");
+                @"\Ressources\Games\DiabloImage.png");
 
             Game _hearthstone = new Game("HEARTHSTONE", null, AllURLs.GET_HEARTHSTONE_URL,
                 "145 cartes inédites, le nouveau système de jeu des vaisseaux et le\n" +
                 "nouveau type de serviteur, les Draeneï",
-                @"Ressources\Games\HearthstoneImage.png");
+                @"\Ressources\Games\HearthstoneImage.png");
 
             AllSlideGames.Add(_callOf);
             AllSlideGames.Add(_overwatch);
@@ -164,7 +165,7 @@ namespace BattleNetLaucher.ModelView
             int _index = GetIndexByGame();
             if(_index==0)
             {
-                SelectedGame = AllSlideGames[AllSlideGames.Count];
+                SelectedGame = AllSlideGames[AllSlideGames.Count-1];
                 MessageBox.Show("Index ="+ AllSlideGames.Count.ToString());
                 return;
             }
@@ -183,7 +184,7 @@ namespace BattleNetLaucher.ModelView
             }
 
             int _index = GetIndexByGame();
-            if (_index == AllSlideGames.Count)
+            if (_index == AllSlideGames.Count - 1)
             {
                 SelectedGame = AllSlideGames[0];
                 MessageBox.Show("Index = 0");
