@@ -13,7 +13,7 @@
     <None Remove="PP.png" />
     <None Remove="Ressources\Games\CallOfImage.png" />
     <None Remove="Ressources\Games\DiabloImage.png" />
-    <None Remove="Ressources\Games\HeathstoneImage.png" />
+    <None Remove="Ressources\Games\HearthstoneImage.png" />
     <None Remove="Ressources\Games\OverwatchImage.png" />
   </ItemGroup>
 
@@ -22,7 +22,7 @@
     <Resource Include="PP.png" />
     <Resource Include="Ressources\Games\CallOfImage.png" />
     <Resource Include="Ressources\Games\DiabloImage.png" />
-    <Resource Include="Ressources\Games\HeathstoneImage.png" />
+    <Resource Include="Ressources\Games\HearthstoneImage.png" />
     <Resource Include="Ressources\Games\OverwatchImage.png" />
   </ItemGroup>
 

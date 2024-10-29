@@ -146,24 +146,24 @@ namespace BattleNetLaucher.ModelView
                 "Découvrez un jeu d'action et d'espionnage au scénario saisissant,\n" +
                 "une experience Multijoueur incomparable avec 16 nouvelles\n" +
                 "cartes et le grand retour de Zombies par manches.",
-                @"\Ressources\Games\CallOfImage.png");
+                "CallOfImage.png");
 
-            Game _overwatch = new Game("OVERWATCH 2",null,AllURLs.GET_OVERWATCH_URL,
+            Game _overwatch = new Game("OVERWATCH 2", null, AllURLs.GET_OVERWATCH_URL,
                 "La nouvelle collaboration Overwatch 2 propose des modèles\n" +
                 "exclusifs inspirés des personnages emblématiques de My Hero\n" +
                 "Academia",
-                @"\Ressources\Games\OverwatchImage.png");
+                "OverwatchImage.png");
 
-            Game _diablo = new Game("DIABLO IV",null,AllURLs.GET_DIABLOIV_URL,
+            Game _diablo = new Game("DIABLO IV", null, AllURLs.GET_DIABLOIV_URL,
                 "Repoussez les forces du mal avec l'Ultimate Edition et débloquez\n" +
                 "instantanément 2 familiers, la monture jaguar, 3 000 pièces de\n" +
                 "platine et plus encore.",
-                @"\Ressources\Games\DiabloImage.png");
+                "DiabloImage.png");
 
             Game _hearthstone = new Game("HEARTHSTONE", null, AllURLs.GET_HEARTHSTONE_URL,
                 "145 cartes inédites, le nouveau système de jeu des vaisseaux et le\n" +
                 "nouveau type de serviteur, les Draeneï",
-                @"\Ressources\Games\HearthstoneImage.png");
+                "HearthstoneImage.png");
 
             AllSlideGames.Add(_callOf);
             AllSlideGames.Add(_overwatch);
@@ -229,8 +229,8 @@ namespace BattleNetLaucher.ModelView
         {
             if (SelectedGame == null && string.IsNullOrEmpty(SelectedGame.URL)) return;
             
-            URLOption gameOption = new URLOption("Play Game", null, SelectedGame.URL);
-            OptionsCallbacks.URLCallBack(gameOption);
+            URLOption _gameOption = new URLOption("Play Game", null, SelectedGame.URL);
+            OptionsCallbacks.URLCallBack(_gameOption);
         }
     }
 }

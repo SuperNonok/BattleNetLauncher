@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="battleNet.png" />
+    <None Remove="CallOfImage.png" />
+    <None Remove="DiabloImage.png" />
+    <None Remove="HeathstoneImage.png" />
+    <None Remove="OverwatchImage.png" />
+    <None Remove="PP.png" />
+    <None Remove="Ressources\Games\CallOfImage.png" />
+    <None Remove="Ressources\Games\DiabloImage.png" />
+    <None Remove="Ressources\Games\HeathstoneImage.png" />
+    <None Remove="Ressources\Games\OverwatchImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="battleNet.png" />
+    <Resource Include="CallOfImage.png" />
+    <Resource Include="DiabloImage.png" />
+    <Resource Include="HeathstoneImage.png" />
+    <Resource Include="OverwatchImage.png" />
+    <Resource Include="PP.png" />
+    <Resource Include="Ressources\Games\CallOfImage.png" />
+    <Resource Include="Ressources\Games\DiabloImage.png" />
+    <Resource Include="Ressources\Games\HeathstoneImage.png" />
+    <Resource Include="Ressources\Games\OverwatchImage.png" />
+  </ItemGroup>
+
+</Project>

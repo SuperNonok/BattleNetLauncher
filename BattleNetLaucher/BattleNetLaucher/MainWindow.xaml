@@ -83,7 +83,7 @@
                 
                 <!-- Image au centre -->
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image Source="{Binding SelectedGame.ImagePath, UpdateSourceTrigger=PropertyChanged}" Width="575" Height="150" Margin="10"></Image>
+                <Image Source="{Binding SelectedGame.Image.Source, UpdateSourceTrigger=PropertyChanged}" Width="575" Height="150" Margin="10"></Image>
                 <TextBlock  Text="{Binding SelectedGame.Description, UpdateSourceTrigger=PropertyChanged}" Width="575" Height="150" Margin="10" Foreground="White"/>
                 <Button Content="Play" Width="100" Height="30" Margin="0,0,0,30" Command="{Binding PlayCommand}" />
             </StackPanel>

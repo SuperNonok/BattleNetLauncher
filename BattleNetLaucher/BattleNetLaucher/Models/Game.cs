@@ -39,8 +39,8 @@ namespace BattleNetLaucher.Models
 
             // BitmapImage.UriSource must be in a BeginInit/EndInit block
             _myBitmapImage.BeginInit();
-            _myBitmapImage.UriSource = new Uri(ImageURI);
-            _myBitmapImage.DecodePixelWidth = 200;
+            _myBitmapImage.UriSource = new Uri($"pack://application:,,,/Ressources/Games/"+ImageURI);
+            _myBitmapImage.DecodePixelWidth = 1920;
             _myBitmapImage.EndInit();
             Image.Source = _myBitmapImage;
         }

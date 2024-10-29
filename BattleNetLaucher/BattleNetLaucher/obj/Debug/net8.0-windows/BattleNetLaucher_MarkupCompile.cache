@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\
+D:\github\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\obj\Debug\net8.0-windows\
 BattleNetLaucher
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Kylia\Documents\GitHub\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\App.xaml
+D:\github\BattleNetLauncher\BattleNetLaucher\BattleNetLaucher\App.xaml
 7-2134868548
 
 19-1453376977
-198-556154604
+1981124507420
 MainWindow.xaml;Views\Windows\AddContactWindow.xaml;Views\Windows\BugReportWindow.xaml;Views\Windows\CommentaryWindow.xaml;Views\Windows\ParametersWindow.xaml;Views\Windows\ProfilePicturesWindow.xaml;Views\Windows\UpdatesWindow.xaml;
 
 False
