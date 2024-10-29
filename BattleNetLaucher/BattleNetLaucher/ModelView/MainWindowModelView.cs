@@ -12,10 +12,13 @@ namespace BattleNetLaucher.ModelView
     public class MainWindowModelView : ModelViewBase
     {
         List<Option> allOptions = new List<Option>();
-        public List<Option> AllOptions => allOptions;
+        public RelayCommand HomeCommand => new RelayCommand(OptionsCallbacks.HomeButtonCallback);
+        public RelayCommand GamesCommand => new RelayCommand(OptionsCallbacks.GamesButtonCallback);
+        public RelayCommand ShopCommand => new RelayCommand(OptionsCallbacks.ShopButtonCallback);
 
         public MainWindowModelView()
         {
+            InitPermanentCommands();
             InitOptions();
         }
 
@@ -32,9 +35,9 @@ namespace BattleNetLaucher.ModelView
             allOptions.Add(_guidedTour);
 
             // Quatrieme Categorie
-            Option _disconnect = new Option("Disconnection", new RelayCommand()); // can add an Icon as Third parameter (default as null)
+            Option _disconnect = new Option("Disconnection", new RelayCommand(OptionsCallbacks.LeaveOrDisconnectCallBack)); // can add an Icon as Third parameter (default as null)
             allOptions.Add(_disconnect);
-            Option _leave = new Option("Leave", new RelayCommand()); // can add an Icon as Third parameter (default as null)
+            Option _leave = new Option("Leave", new RelayCommand(OptionsCallbacks.LeaveOrDisconnectCallBack)); // can add an Icon as Third parameter (default as null)
             allOptions.Add(_leave);
 
         }
@@ -74,6 +77,9 @@ namespace BattleNetLaucher.ModelView
             allOptions.Add(_mobileApp);
         }
 
-
+        void InitPermanentCommands()
+        {
+           // HomeCommand = 
+        }
     }
 }

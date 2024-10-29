@@ -48,5 +48,20 @@ namespace BattleNetLaucher.MVVM
         {
             MessageBox.Show("Close MainWindow");
         }
+
+        public static void HomeButtonCallback(object _obj)
+        {
+            MessageBox.Show("Home");
+        }
+
+        public static void GamesButtonCallback(object _obj)
+        {
+            MessageBox.Show("Games");
+        }
+
+        public static void ShopButtonCallback(object _obj)
+        {
+            MessageBox.Show("Shop");
+        }
     }
 }
