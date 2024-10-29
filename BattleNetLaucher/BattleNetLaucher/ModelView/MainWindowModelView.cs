@@ -61,7 +61,7 @@ namespace BattleNetLaucher.ModelView
         void InitURLOptions()
         {
             URLOption _account = new URLOption("Account", null, AllURLs.GET_ACCOUNT_URL); // can add an Icon as Fourth parameter (default as null)
-            _account.OptionCommand = new RelayCommand(OptionsCallbacks.URLCallBack);
+            _account.OptionCommand = new RelayCommand((o) => OptionsCallbacks.URLCallBack(o));
             AllOptions.Add(_account);
 
             URLOption _help = new URLOption("Help", null, AllURLs.GET_HELP_URL); // can add an Icon as Fourth parameter (default as null)
