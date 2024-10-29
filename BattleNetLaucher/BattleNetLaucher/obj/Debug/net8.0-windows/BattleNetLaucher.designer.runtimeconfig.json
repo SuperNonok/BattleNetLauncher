@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Kylia\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Kylia\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\ALIZ0110\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ALIZ0110\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
